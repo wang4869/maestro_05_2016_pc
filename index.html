@@ -742,6 +742,201 @@ function winOnload(){
 		},1500);
 	}
 </script>
+<!--jQuery-->
+<script src="js/jquery-1.11.0.min.js"></script>
+<script>
+var wWidth;
+var isWap=false;
+function topVideo(){
+  var iframeSrc = new Array;
+  var bmWinH2 = $j(window).height() + 359;
+  $j('body').prepend('<div class="bmWrap" style="position:relative;overflow-x:hidden;"></div>');
+  $j('body').prepend('<style type="text/css">#corrosilRightArrow{top:' + bmWinH2 + 'px !important}#corrosilLeftArrow{top:' + bmWinH2 + 'px !important}</style>');
+  $j('.bmWrap').append('<div class="mvBox"><video id="w11v" src="images/201605w/topVideo.mp4" preload="auto" autoplay="autoplay" width="100%" height="100%"  style="position:fixed; background:#000; left:0; top:0; width:100%; height:100%;"></video></div>');
+  $j('.bmWrap').append('<a href="javascript:void(0);" class="bmClose" style=" font-size:18px; color:#FFF; position:absolute;top:30px;right:30px;z-index:3">关闭<!--<img src="images/201605w/closeBtn.png" />--></a>');
+  $j('.bmWrap').append('<a href="javascript:void(0);" class="bmPlay" style="position:fixed;top:50%;left:50%;z-index:3;margin:-35px 0 0 -25px; display:none;"><img src="images/201605w/playBtn.png" /></a>');
+  $j('.bmWrap').append('<span class="dimdeu" style="position:absolute;top:0;left:0;z-index:2;width:100%;height:100%;opacity:0;background:#000"></span>');
+  $j('.page-container').wrap('<div class="allContentWrap"></div>');
+  $j('.allContentWrap').css({
+	  'margin': 0,
+	  'padding': 0,
+	  'background': '#fff',
+	  'width': '100%',
+	  'height': '100%',
+	  'position': 'relative',
+	  'z-index': '11'
+  });
+  
+  $j('html, body').animate({
+		  'scrollTop': 0
+	  }, 10, 'swing');
+	  
+	document.getElementById('w11v').addEventListener('ended',function(){closeV11();},false);
+  
+  // Contents Size Function
+  $j.fn.mvResize = function() {
+	  var bmWinW = $j(window).width();
+	  var bmWinH = $j(window).height();
+	  var mvWeight = bmWinW;
+	  var mvHeight = (bmWinW / 16) * 9;
+	  if (mvHeight < bmWinH) {
+		  mvHeight = bmWinH;
+		  mvWeight = bmWinW;
+	  };
+	  //$j('#corrosilRightArrow').css('top', bmWinH + 354);
+	  //$j('#corrosilLeftArrow').css('top', bmWinH + 354);
+	  $j('.bmWrap').css({
+		  'width': bmWinW,
+		  'height': bmWinH
+	  }).find('.mvBox').css({
+		  'width': mvWeight,
+		  'height': mvHeight,
+		  'position': 'fixed',
+		  'top': '0px',
+		  'left': '0px'
+	  });
+  };
+  $j.fn.mvResize();
+  
+  // Scroll Top Move
+  /*$j(window).load(function() {
+	  $j('html, body').animate({
+		  scrollTop: 0
+	  }, 50);
+	  //$j('#frontContainer').parent('.bodyTextGray').css('overflow-x', 'hidden');
+  });*/
+  
+  // Window Resize
+  $j(window).resize(function() {
+	  if(!isWap){
+		  $j.fn.mvResize();
+		  }
+  });
+  
+  // Close Event
+  $j('.bmClose').on('click', function() {
+	  $j('.bmPlay').show();
+	  var v11=document.getElementById('w11v');
+	  v11.pause();
+	  var bmWinH = $j(window).height();
+	  $j('html, body').animate({
+		  'scrollTop': bmWinH
+	  }, 1000, 'swing');
+  });
+  
+  function closeV11(){
+	  $j('.bmPlay').show();
+	  var v11=document.getElementById('w11v');
+	  v11.pause();
+	  var bmWinH = $j(window).height();
+	  $j('html, body').animate({
+		  'scrollTop': bmWinH
+	  }, 1000, 'swing');
+	  playwVideo(1);
+	  }
+  
+  //playVide
+  $j('.bmPlay').on('click', function() {
+	  $j('.bmPlay').hide();
+	  $j('html, body').animate({
+		  'scrollTop': 0
+	  }, 1000, 'swing');
+	  var v11=document.getElementById('w11v');
+	  v11.play();
+  });
+  
+  // Moouse Event
+  $j('.bdMore').on('mouseenter', function() {
+	  $j(this).find('.bd_ikea_arrow').stop().animate({
+		  'left': 200
+	  }, 100);
+  });
+  $j('.bdMore').on('mouseleave', function() {
+	  $j(this).find('.bd_ikea_arrow').stop().animate({
+		  'left': 195
+	  }, 100);
+  });
+  
+  // Scroll Dimdeu Event
+  $j(window).scroll(function() {
+	  var DEFAULT_VERSION = "8.0";
+	  var ua = navigator.userAgent.toLowerCase();
+	  var isIE = ua.indexOf("msie")>-1;
+	  var safariVersion;
+	  if(isIE){
+		  safariVersion =  ua.match(/msie ([\d.]+)/)[1];
+		  if(parseInt(safariVersion) <= parseInt(DEFAULT_VERSION)){
+			  // 跳转至页面1
+		  }else{
+			  var bmWinH = $j(window).height();
+			  var scrollMin = 0;
+			  var scrollMax = bmWinH;
+			  var scrollVal = $j(window).scrollTop() / scrollMax;
+			  if ($j(window).scrollTop() > scrollMin && $j(window).scrollTop() < scrollMax) {
+				  $j('.dimdeu').css('opacity', scrollVal * 0.7);
+			  } else if ($j(window).scrollTop() == 0) {
+				  $j('.dimdeu').css('opacity', 0);
+			  };
+		  }
+	  }else{
+		  // 跳转至页面2
+		  var bmWinH = $j(window).height();
+		  var scrollMin = 0;
+		  var scrollMax = bmWinH;
+		  var scrollVal = $j(window).scrollTop() / scrollMax;
+		  if ($j(window).scrollTop() > scrollMin && $j(window).scrollTop() < scrollMax) {
+			  $j('.dimdeu').css('opacity', scrollVal * 0.7);
+		  } else if ($j(window).scrollTop() == 0) {
+			  $j('.dimdeu').css('opacity', 0);
+		  };
+	  }
+  });
+  }
+  
+  $j(document).ready(function(){
+	  wWidth=$j(window).width();
+	  if(wWidth<=640){
+		  wapVideo();
+		  }
+		  else{
+			  pdTopVide();
+			  }
+	});
+	
+function wapVideo(){
+	isWap=true;
+	$j('body').append('<div class="wapVideoBg" style="position:fixed; left:0; top:0; width:100%; top:100%; background:rgb(0,0,0,0.8); z-index:990;"></div><div style="width:100%; height:480px; left:0; top:50%; margin-top:-240px;"><video id="wapVideo" src="images/201605w/topVideo.mp4" preload="auto" autoplay="autoplay" control width="100%" height="100%"  style="position:fixed; background:#000; left:0; top:0; width:100%; height:100%; z-index:999;"></video></div><a href="javascript:void(0);" onClick="closeWapVideo();" style=" position:fixed; top:30px; right:30px; z-index:1000;" class="waoVideoCloseBtn"><img src="images/201605w/closeBtn.png" /></a>');
+	
+	var wapVideo=document.getElementById('wapVideo');
+	wapVideo.play();
+	}
+	
+function closeWapVideo(){
+	var wapVideo=document.getElementById('wapVideo');
+	wapVideo.pause();
+	$j('#wapVideo').fadeOut(500);
+	$j('.wapVideoBg').fadeOut(500);
+	$('.waoVideoCloseBtn').fadeOut(500);
+	}
+	
+function pdTopVide(){
+	var DEFAULT_VERSION = "8.0";
+	var ua = navigator.userAgent.toLowerCase();
+	var isIE = ua.indexOf("msie")>-1;
+	var safariVersion;
+	if(isIE){
+		safariVersion =  ua.match(/msie ([\d.]+)/)[1];
+		if(parseInt(safariVersion) <= parseInt(DEFAULT_VERSION)){
+			// 跳转至页面1
+		}else{
+			topVideo();
+		}
+	}else{
+		  // 跳转至页面2
+		  topVideo();
+		  }
+	}
+</script>
 <!-- div.page-section end -->
 <!--william work end--> 
 
