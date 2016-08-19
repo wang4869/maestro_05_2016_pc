@@ -455,6 +455,12 @@
                 width: 100%;
                 height: 100%;
             }
+			
+			.wTab2{ position:absolute; right:0; top:35%; background:url(images/201608w/wapTab2.png) 0 0 no-repeat; z-index:999;}
+			.wTab2 .wTabA2{ width:103px;}
+			.wTab2 .wTabA2 a{ display:block; width:100%; height:100%;}
+			.wTabA21{ height:87px;}
+			.wTabA22{ height:80px;}
         </style>
         <!-- div.page-section -->
         <div class="hero-banner-carousel">
@@ -469,7 +475,7 @@
             </ul>
         </div>
 
-        <div class="wTab">
+        <div class="wTab pcShow">
             <div class="wTabWarp">
                 <ul>
                     <li class="wTabA wTabA1"><a href="javascript:void(0);" onClick="tabNumb=1;tabCheck();"><img
@@ -479,6 +485,14 @@
                 </ul>
             </div>
         </div>
+
+        <ul class="wTab2 wapShow">
+            <li class="wTabA2 wTabA21"><a href="javascript:void(0);" onClick="tabNumb=1;tabCheck();"><img
+                    src="images/space.gif" width="100%" height="100%"></a></li>
+            <li class="wTabA2 wTabA22"><a href="javascript:void(0);" onClick="tabNumb=2;tabCheck();"><img
+                    src="images/space.gif" width="100%" height="100%"></a></li>
+        </ul>
+        
 
         <div class="page-section page-section1" style="display:none;">
             <div class="tiles-container">
@@ -1370,6 +1384,7 @@
                 $('.page-section').hide();
                 $('.page-section' + tabNumb).show();
                 $('.wTabWarp ul').css('background-position', '0 ' + (1 - tabNumb) * 58 + 'px');
+				$('.wTab2').css('background-position',''+(1 - tabNumb) * 103+'px 0');
             }
 
             var isOpne = false;
