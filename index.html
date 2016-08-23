@@ -1671,6 +1671,12 @@
                     $j('html, body').animate({
                         'scrollTop': bmWinH
                     }, 1000, 'swing');
+					if (tabNumb == 1) {
+                        playwVideo(1);
+                    }
+                    else if (tabNumb == 2) {
+                        playwVideo(5);
+                    }
                 });
 
                 function closeV11() {
