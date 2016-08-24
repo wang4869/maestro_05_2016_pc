@@ -1,0 +1,1677 @@
+﻿        <!--william work start-->
+        <style>
+            .innerDiv {
+                width: 100%;
+                height: 100%;
+                position: relative;
+            }
+
+            .slide-link-slek {
+                display: block;
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                left: 0;
+                top: 0;
+            }
+
+            .wIndex a.wtile-link {
+                width: 100%;
+                height: 100%;
+                display: block;
+                position: absolute;
+                left: 0;
+                top: 0;
+            }
+
+            .wIndex .wtile.w13 {
+                display: block;
+                float: left;
+                margin-right: 1.25%;
+                width: 32.5%;
+                margin-bottom: 1.45%;
+            }
+
+            .wIndex .wtile.w13 img {
+                width: 100%;
+            }
+
+            .wIndex .wtile.w23 {
+                display: block;
+                float: left;
+                margin-right: 1.25%;
+                width: 66.25%;
+                margin-bottom: 1.45%;
+            }
+
+            .wIndex .wtile.w23 img {
+                width: 100%;
+            }
+
+            .wIndex .wtile.w232 {
+                display: block;
+                float: left;
+                margin-right: 3%;
+                width: 48.5%;
+                margin-top: 2.9%;
+            }
+
+            .wIndex .wtile.w232 img {
+                width: 100%;
+            }
+
+            a.stxt {
+                background: rgba(0, 38, 91, 0.75);
+                display: inline-block;
+                padding: 7px 10px;
+                color: #FFF;
+                font-size: 18px;
+                font-weight: bold;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                overflow: hidden;
+                max-width: 90%;
+            }
+
+            a.stxt1 {
+                position: absolute;
+                left: 13px;
+                bottom: 60px;
+            }
+
+            a.stxt2 {
+                position: absolute;
+                left: 13px;
+                bottom: 13px;
+            }
+
+            a.stxt3 {
+                position: absolute;
+                left: 54%;
+                bottom: 62%;
+            }
+
+            a.stxt4 {
+                position: absolute;
+                left: 54%;
+                bottom: 55%;
+            }
+
+            a.stxt5 {
+                position: absolute;
+                left: 54%;
+                bottom: 9%;
+            }
+
+            a.stxt6 {
+                position: absolute;
+                left: 54%;
+                bottom: 2%;
+            }
+
+            a.stxt7 {
+                position: absolute;
+                left: 13px;
+                bottom: 62.5%;
+            }
+
+            a.stxt8 {
+                position: absolute;
+                left: 13px;
+                bottom: 55%;
+            }
+
+            a.stxt9 {
+                position: absolute;
+                left: 13px;
+                bottom: 9.5%;
+            }
+
+            a.stxt10 {
+                position: absolute;
+                left: 13px;
+                bottom: 2%;
+            }
+
+            .wIndex .wtile.nomr {
+                margin-right: 0;
+            }
+
+            .bgImg2 {
+                left: 50%;
+                margin-left: -800px;
+                top: 1100px;
+                position: absolute;
+            }
+
+            body {
+                background: #00265b;
+            }
+
+            /*.page-content{ background:url(/images/201608w/bgImg1.png) repeat 15px 15px #00265b;}*/
+            .page-section1 {
+                background: url(/images/201605w/bgImg2.png) center 0px no-repeat;
+            }
+
+            .page-section2 {
+                background: url(/images/201608w/bgImg2.png) center 0px no-repeat;
+            }
+
+            .pcShow {
+                display: inline;
+            }
+
+            .wapShow {
+                display: none;
+            }
+
+            .wapShowBlock {
+                display: none;
+            }
+
+            .wIndex .w13.pcShow {
+                display: inline;
+            }
+
+            .wIndex .w13.wapShow {
+                display: none;
+            }
+
+            .wIndex a.wtile-link1 {
+                width: 48.99536%;
+                height: 47.67616%;
+                display: block;
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+
+            .wIndex a.wtile-link2 {
+                width: 48.99536%;
+                height: 47.67616%;
+                display: block;
+                position: absolute;
+                right: 0;
+                bottom: 0;
+            }
+
+            .wIndex a.wtile-link3 {
+                width: 100%;
+                height: 47.67616%;
+                display: block;
+                position: absolute;
+                left: 0;
+                top: 0;
+            }
+
+            .wIndex a.wtile-link4 {
+                width: 100%;
+                height: 47.67616%;
+                display: block;
+                position: absolute;
+                left: 0;
+                bottom: 0;
+            }
+
+            .wIndex a.wtile-link5 {
+                width: 48.99536%;
+                height: 47.67616%;
+                display: block;
+                position: absolute;
+                left: 0;
+                top: 0;
+            }
+
+            .wIndex a.wtile-link6 {
+                width: 48.99536%;
+                height: 47.67616%;
+                display: block;
+                position: absolute;
+                left: 0;
+                bottom: 0;
+            }
+
+            @media screen and (max-width: 640px) {
+                .clearLeft {
+                    clear: both;
+                }
+
+                .wIndex .wtile.w13 {
+                    margin-right: 0;
+                    width: 100%;
+                    margin-bottom: 1.45%;
+                }
+
+                .wIndex .wtile.w23 {
+                    margin-right: 0;
+                    width: 100%;
+                    margin-bottom: 1.45%;
+                }
+
+                .wIndex .wtile.w132 {
+                    display: block;
+                    float: left;
+                    margin-right: 2%;
+                    width: 49%;
+                    margin-top: 0;
+                }
+
+                .wIndex .wtile.w232 {
+                    margin-top: 1.45%;
+                    margin-right: 2%;
+                    width: 49%;
+                }
+
+                .wIndex .wtile.nomr {
+                    margin-right: 0;
+                }
+
+                a.stxt {
+                    font-size: 14px;
+                }
+
+                .pcShow {
+                    display: none;
+                }
+
+                .wapShow {
+                    display: inline;
+                }
+
+                .wapShowBlock {
+                    display: block;
+                }
+
+                .wIndex .w13.pcShow {
+                    display: none;
+                }
+
+                .wIndex .w13.wapShow {
+                    display: inline;
+                }
+            }
+
+            .wTab {
+                border-bottom: 2px solid #FFF;
+                padding-top: 20px;
+            }
+
+            .wTabWarp {
+                margin: 0 auto;
+                max-width: 61.25em;
+            }
+
+            .wTabWarp ul {
+                width: 630px;
+                height: 58px;
+                overflow: hidden;
+                background: url(/images/201608w/tabBg2.png) 0 0 no-repeat;
+            }
+
+            .wTabA {
+                float: left;
+                height: 58px;
+            }
+
+            .wTabA1 {
+                width: 217px;
+            }
+
+            .wTabA2 {
+                width: 208px;
+            }
+
+            .wTabA a {
+                display: block;
+                width: 100%;
+                height: 100%;
+            }
+			
+			.wTab2{ position:fixed; right:0; top:35%; background:url(/images/201608w/wapTab2.png) 0 0 no-repeat; z-index:999;}
+			.wTab2 .wTabA2{ width:103px;}
+			.wTab2 .wTabA2 a{ display:block; width:100%; height:100%;}
+			.wTabA21{ height:87px;}
+			.wTabA22{ height:80px;}
+        </style>
+        <!-- div.page-section -->
+        <div class="hero-banner-carousel">
+            <ul class="hero-banner-bxslider bxslider slider-list">
+                <li class="slider-item" style="cursor:pointer; background-image:url(/images/201608w/kv.jpg);">
+                    <div class="page-wrapper">
+                        <!--<p class="banner-copy-wrapper"><a href="javascript:void(0);"  class="banner-header big-text"></a></p>
+                                               <p class="banner-copy-wrapper"><a href="javascript:void(0);" class="cta-btn white-btn"><span></span></a></p>-->
+                    </div>
+                    <a href="http://sale.jd.com/act/rSgpltZ1HNOj.html" target="_blank" class="slide-link-slek"></a>
+                </li>
+                <li class="slider-item" style="cursor:pointer; background-image:url(/images/201605w/kvnew.jpg);">
+                    <div class="page-wrapper">
+                        <!--<p class="banner-copy-wrapper"><a href="javascript:void(0);"  class="banner-header big-text"></a></p>
+                                               <p class="banner-copy-wrapper"><a href="javascript:void(0);" class="cta-btn white-btn"><span></span></a></p>-->
+                    </div>
+                    <a href="http://sale.jd.com/act/rSgpltZ1HNOj.html" target="_blank" class="slide-link-slek"></a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="wTab pcShow">
+            <div class="wTabWarp">
+                <ul>
+                    <li class="wTabA wTabA1"><a href="javascript:void(0);" onClick="tabNumb=1;tabCheck();"><img
+                            src="/images/space.gif" width="100%" height="100%"></a></li>
+                    <li class="wTabA wTabA2"><a href="javascript:void(0);" onClick="tabNumb=2;tabCheck();"><img
+                            src="/images/space.gif" width="100%" height="100%"></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <ul class="wTab2 wapShow">
+            <li class="wTabA2 wTabA21"><a href="javascript:void(0);" onClick="tabNumb=1;tabCheck();"><img
+                    src="/images/space.gif" width="100%" height="100%"></a></li>
+            <li class="wTabA2 wTabA22"><a href="javascript:void(0);" onClick="tabNumb=2;tabCheck();"><img
+                    src="/images/space.gif" width="100%" height="100%"></a></li>
+        </ul>
+        
+
+        <div class="page-section page-section1" style="display:none;">
+            <div class="tiles-container">
+                <div class="tiles-wrapper page-wrapper wIndex">
+                    <div class="skv" style="width:100%; max-width:980px; padding-bottom:20px;">
+                        <a href="javascript:void(0);">
+                            <img target="_blank" alt="" src="/images/201605w/skv.png"
+                                 style="width:100%; max-width:980px;">
+                        </a>
+                    </div>
+
+                    <div class="wtile w13 clearLeft">
+                        <div class="innerDiv">
+                            <div class="pcShow">
+                                <img src="/images/201605w/indexImg1.png" class="cTop">
+                                <img src="/images/201605w/indexImg1b.png" class="cBottom" style="display:none;">
+                            </div>
+
+                            <div class="wapShow">
+                                <img src="/images/201605w/wap_indexImg1.png" class="ci1a">
+                                <img src="/images/201605w/wap_indexImg1b.png" class="ci1b" style="display:none;">
+                            </div>
+
+                            <a href='javascript:void(0);' class='wtile-link needChangeC' grel="STEP1"><img
+                                    src="/images/space.gif" width="100%"
+                                    height="100%"></a>
+                        </div>
+                    </div>
+
+                    <div class="wtile w23 nomr clearLeft">
+                        <div class="innerDiv">
+                            <img src="/images/201605w/indexImg2.png">
+
+                            <video id="v1" src="/images/201605w/1.mp4" preload="auto"
+                                   style="display:none; width:100%; height:100%; position:absolute; left:0; top:0;"></video>
+                            <a href='javascript:void(0);' class='wtile-link vBtn1' onClick="playwVideo(1);"><img
+                                    src="/images/space.gif" width="100%"
+                                    height="100%"></a>
+                        </div>
+                    </div>
+
+                    <div class="wtile w13 w132">
+                        <div class="innerDiv">
+                            <img src="/images/201605w/indexImg3.png">
+
+                            <a href='http://item.jd.com/277521.html' class='wtile-link needTrack' target="_blank"><img
+                                    src="/images/space.gif" width="100%"
+                                    height="100%"></a>
+                            <!--<a href="http://item.jd.com/277521.html" class="stxt stxt1 needTrack">推荐产品</a>-->
+                            <a href="http://item.jd.com/277521.html" class="stxt stxt2 needTrack" target="_blank">美涛丰盈造型弹力素</a>
+                        </div>
+                    </div>
+
+                    <div class="wtile w13 w132 nomr">
+                        <div class="innerDiv">
+                            <img src="/images/201605w/indexImg4.png">
+                            <a href='http://item.jd.com/1818758.html' class='wtile-link needTrack' target="_blank"><img
+                                    src="/images/space.gif" width="100%"
+                                    height="100%"></a>
+                            <!--<a href="http://item.jd.com/1818758.html" class="stxt stxt1 needTrack">推荐产品</a>-->
+                            <a href="http://item.jd.com/1818758.html" class="stxt stxt2 needTrack" target="_blank">美涛保湿型定型喷雾</a>
+                        </div>
+                    </div>
+
+                    <div class="splitLine wapShowBlock"
+                         style="width:100%; max-width:980px; padding-bottom:10px; text-align:center;">
+                        <a href="javascript:void(0);">
+                            <img target="_blank" alt="" src="/images/201605w/wapSplit.png">
+                        </a>
+                    </div>
+
+                    <div class="wtile w13 nomr wapShow clearLeft">
+                        <div class="innerDiv">
+                            <img src="/images/201605w/wap_indexImg6.png" class="ci2a">
+
+                            <img src="/images/201605w/wap_indexImg6b.png" class="ci2b" style="display:none;">
+                            <a href='javascript:void(0);' class='wtile-link'><img
+                                    src="/images/space.gif" width="100%"
+                                    height="100%"></a>
+                        </div>
+                    </div>
+
+                    <div class="wtile w23 clearLeft">
+                        <div class="innerDiv">
+                            <img src="/images/201605w/indexImg5.png">
+
+                            <video id="v2" src="/images/201605w/2.mp4" preload="auto"
+                                   style="display:none; width:100%; height:100%; position:absolute; left:0; top:0;"></video>
+                            <a href='javascript:void(0);' class='wtile-link vBtn2' onClick="playwVideo(2);"><img
+                                    src="/images/space.gif" width="100%"
+                                    height="100%"></a>
+                        </div>
+
+                        <div class="wtile w232">
+                            <div class="innerDiv">
+                                <img src="/images/201605w/indexImg7.png">
+
+                                <a href='http://item.jd.com/1818739.html' class='wtile-link needTrack'
+                                   target="_blank"><img
+                                        src="/images/space.gif" width="100%"
+                                        height="100%"></a>
+                                <!--<a href="http://item.jd.com/1818739.html" class="stxt stxt1 needTrack">推荐产品</a>-->
+                                <a href="http://item.jd.com/1818739.html" class="stxt stxt2 needTrack" target="_blank">美涛持久魅卷弹力素</a>
+                            </div>
+                        </div>
+
+                        <div class="wtile w232 nomr">
+                            <div class="innerDiv">
+                                <img src="/images/201605w/indexImg8.png">
+
+                                <a href='http://item.jd.com/1818745.html' class='wtile-link needTrack'
+                                   target="_blank"><img
+                                        src="/images/space.gif" width="100%"
+                                        height="100%"></a>
+                                <!--<a href="http://item.jd.com/1818745.html" class="stxt stxt1 needTrack">推荐产品</a>-->
+                                <a href="http://item.jd.com/1818745.html" class="stxt stxt2 needTrack" target="_blank">美涛亮泽型定型喷雾</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="wtile w13 nomr pcShow clearLeft">
+                        <div class="innerDiv">
+                            <img src="/images/201605w/indexImg6.png" class="cTop">
+
+                            <img src="/images/201605w/indexImg6b.png" class="cBottom" style="display:none;">
+                            <a href='javascript:void(0);' class='wtile-link needChangeC' grel="STEP2"><img
+                                    src="/images/space.gif" width="100%"
+                                    height="100%"></a>
+                        </div>
+                    </div>
+
+                    <div class="splitLine wapShowBlock"
+                         style="width:100%; max-width:980px; padding-bottom:10px; text-align:center;">
+                        <a href="javascript:void(0);">
+                            <img target="_blank" alt="" src="/images/201605w/wapSplit.png">
+                        </a>
+                    </div>
+
+                    <div class="wtile w13 clearLeft">
+                        <div class="innerDiv">
+                            <div class="pcShow">
+                                <img src="/images/201605w/indexImg9.png" class="cTop">
+                                <img src="/images/201605w/indexImg9b.png" class="cBottom" style="display:none;">
+                            </div>
+
+                            <div class="wapShow">
+                                <img src="/images/201605w/wap_indexImg9.png" class="ci1a">
+                                <img src="/images/201605w/wap_indexImg9b.png" class="ci1b" style="display:none;">
+                            </div>
+
+                            <a href='javascript:void(0);' class='wtile-link needChangeC' grel="STEP3"><img
+                                    src="/images/space.gif" width="100%"
+                                    height="100%"></a>
+                        </div>
+                    </div>
+
+                    <div class="wtile w23 nomr clearLeft">
+                        <div class="innerDiv">
+                            <img src="/images/201605w/indexImg10.png">
+
+                            <video id="v3" src="/images/201605w/3.mp4" preload="auto"
+                                   style="display:none; width:100%; height:100%; position:absolute; left:0; top:0;"></video>
+                            <a href='javascript:void(0);' class='wtile-link vBtn3' onClick="playwVideo(3);"><img
+                                    src="/images/space.gif" width="100%"
+                                    height="100%"></a>
+                        </div>
+                    </div>
+
+                    <div class="wtile w13 w132">
+                        <div class="innerDiv">
+                            <img src="/images/201605w/indexImg11.png">
+
+                            <a href='http://item.jd.com/362334.html' class='wtile-link needTrack' target="_blank"><img
+                                    src="/images/space.gif" width="100%"
+                                    height="100%"></a>
+                            <!--<a href="http://item.jd.com/362334.html" class="stxt stxt1 needTrack">推荐产品</a>-->
+                            <a href="http://item.jd.com/362334.html" class="stxt stxt2 needTrack" target="_blank">美涛自由造型发蜡</a>
+                        </div>
+                    </div>
+
+                    <div class="wtile w13 w132 nomr">
+                        <div class="innerDiv">
+                            <img src="/images/201605w/indexImg12.png">
+
+                            <a href='http://item.jd.com/1818758.html' class='wtile-link needTrack' target="_blank"><img
+                                    src="/images/space.gif" width="100%"
+                                    height="100%"></a>
+                            <!--<a href="http://item.jd.com/1818758.html" class="stxt stxt1 needTrack">推荐产品</a>-->
+                            <a href="http://item.jd.com/1818758.html" class="stxt stxt2 needTrack" target="_blank">美涛保湿型定型喷雾</a>
+                        </div>
+                    </div>
+
+                    <div class="splitLine wapShowBlock"
+                         style="width:100%; max-width:980px; padding-bottom:10px; text-align:center;">
+                        <a href="javascript:void(0);">
+                            <img target="_blank" alt="" src="/images/201605w/wapSplit.png">
+                        </a>
+                    </div>
+
+                    <div class="wtile w13 nomr wapShow clearLeft">
+                        <div class="innerDiv">
+                            <img src="/images/201605w/wap_indexImg14.png" class="ci2a">
+
+                            <img src="/images/201605w/wap_indexImg14b.png" class="ci2b" style="display:none;">
+                            <a href='javascript:void(0);' class='wtile-link'><img
+                                    src="/images/space.gif" width="100%"
+                                    height="100%"></a>
+                        </div>
+                    </div>
+
+                    <div class="wtile w23 clearLeft">
+                        <div class="innerDiv">
+                            <img src="/images/201605w/indexImg13.png">
+
+                            <video id="v4" src="/images/201605w/4.mp4" preload="auto"
+                                   style="display:none; width:100%; height:100%; position:absolute; left:0; top:0;"></video>
+                            <a href='javascript:void(0);' class='wtile-link vBtn4' onClick="playwVideo(4);"><img
+                                    src="/images/space.gif" width="100%"
+                                    height="100%"></a>
+                        </div>
+
+                        <div class="wtile w232">
+                            <div class="innerDiv">
+                                <img src="/images/201605w/indexImg15.png">
+
+                                <a href='http://item.jd.com/845674.html' class='wtile-link needTrack'
+                                   target="_blank"><img
+                                        src="/images/space.gif" width="100%"
+                                        height="100%"></a>
+                                <!--<a href="http://item.jd.com/845674.html" class="stxt stxt1 needTrack">推荐产品</a>-->
+                                <a href="http://item.jd.com/845674.html" class="stxt stxt2 needTrack" target="_blank">美涛清爽保湿啫喱水</a>
+                            </div>
+                        </div>
+
+                        <div class="wtile w232 nomr">
+                            <div class="innerDiv">
+                                <img src="/images/201605w/indexImg16.png">
+
+                                <a href='http://www.maestro.com.cn/education/duanfabuzhou' class='wtile-link needTrack'><img
+                                        src="/images/space.gif" width="100%"
+                                        height="100%"></a>
+                                <a href="http://www.maestro.com.cn/education/duanfabuzhou" class="stxt stxt1 needTrack">三款短发造型UP吸睛度</a>
+                                <a href="http://www.maestro.com.cn/education/duanfabuzhou" class="stxt stxt2 needTrack">今天为大家带来三款短发发型教程，不管是DIY时尚俏皮的短卷发还是打造出甜美的半扎发，都能UP你的吸睛度哦。</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="wtile w13 nomr pcShow clearLeft">
+                        <div class="innerDiv">
+                            <img src="/images/201605w/indexImg14.png" class="cTop">
+
+                            <img src="/images/201605w/indexImg14b.png" class="cBottom" style="display:none;">
+                            <a href='javascript:void(0);' class='wtile-link needChangeC' grel="STEP4"><img
+                                    src="/images/space.gif" width="100%"
+                                    height="100%"></a>
+                        </div>
+                    </div>
+
+                    <div class="splitLine wapShowBlock"
+                         style="width:100%; max-width:980px; padding-bottom:10px; text-align:center;">
+                        <a href="javascript:void(0);">
+                            <img target="_blank" alt="" src="/images/201605w/wapSplit.png">
+                        </a>
+                    </div>
+
+                    <div class="wtile w13 nomr wapShow clearLeft">
+                        <div class="innerDiv">
+                            <img src="/images/201605w/wap_indexImg17.png" class="ci1a">
+
+                            <img src="/images/201605w/wap_indexImg17b.png" class="ci1b" style="display:none;">
+                            <a href='javascript:void(0);' class='wtile-link'><img
+                                    src="/images/space.gif" width="100%"
+                                    height="100%"></a>
+                        </div>
+                    </div>
+
+                    <div class="wtile w13 w132 wapShow">
+                        <div class="innerDiv">
+                            <img src="/images/201605w/wap_p17a.png">
+
+                            <a href='http://item.jd.com/362334.html' class='wtile-link needTrack' target="_blank"><img
+                                    src="/images/space.gif" width="100%"
+                                    height="100%"></a>
+                            <!--<a href="http://item.jd.com/362334.html" class="stxt stxt1 needTrack">推荐产品</a>-->
+                            <a href="http://item.jd.com/362334.html" class="stxt stxt2 needTrack" target="_blank">美涛自由造型发蜡</a>
+                        </div>
+                    </div>
+
+                    <div class="wtile w13 w132 wapShow nomr">
+                        <div class="innerDiv">
+                            <img src="/images/201605w/wap_p17b.png">
+
+                            <a href='http://item.jd.com/1818745.html' class='wtile-link needTrack' target="_blank"><img
+                                    src="/images/space.gif" width="100%"
+                                    height="100%"></a>
+                            <!--<a href="http://item.jd.com/1818745.html" class="stxt stxt1 needTrack">推荐产品</a>-->
+                            <a href="http://item.jd.com/1818745.html" class="stxt stxt2 needTrack" target="_blank">美涛亮泽型定型喷雾</a>
+                        </div>
+                    </div>
+
+                    <div class="splitLine wapShowBlock"
+                         style="width:100%; max-width:980px; padding-bottom:10px; text-align:center;">
+                        <a href="javascript:void(0);">
+                            <img target="_blank" alt="" src="/images/201605w/wapSplit.png">
+                        </a>
+                    </div>
+
+                    <div class="wtile w13 nomr wapShow clearLeft">
+                        <div class="innerDiv">
+                            <img src="/images/201605w/wap_indexImg18.png" class="ci2a">
+
+                            <img src="/images/201605w/wap_indexImg18b.png" class="ci2b" style="display:none;">
+                            <a href='javascript:void(0);' class='wtile-link'><img
+                                    src="/images/space.gif" width="100%"
+                                    height="100%"></a>
+                        </div>
+                    </div>
+
+                    <div class="wtile w13 w132 wapShow">
+                        <div class="innerDiv">
+                            <img src="/images/201605w/wap_p18a.png">
+
+                            <a href='http://item.jd.com/845678.html' class='wtile-link needTrack' target="_blank"><img
+                                    src="/images/space.gif" width="100%"
+                                    height="100%"></a>
+                            <!--<a href="http://item.jd.com/845678.html" class="stxt stxt1 needTrack">推荐产品</a>-->
+                            <a href="http://item.jd.com/845678.html" class="stxt stxt2 needTrack" target="_blank">美涛定型亮发啫喱水</a>
+                        </div>
+                    </div>
+
+                    <div class="wtile w13 w132 wapShow nomr">
+                        <div class="innerDiv">
+                            <img src="/images/201605w/wap_p18b.png">
+
+                            <a href='http://www.maestro.com.cn/education/girl-hairstyle'
+                               class='wtile-link needTrack'><img
+                                    src="/images/space.gif" width="100%"
+                                    height="100%"></a>
+                            <a href="http://www.maestro.com.cn/education/girl-hairstyle" class="stxt stxt1 needTrack">100%
+                                少女发型发布</a>
+                            <a href="http://www.maestro.com.cn/education/girl-hairstyle" class="stxt stxt2 needTrack">新的一年想要美丽变身…</a>
+                        </div>
+                    </div>
+
+                    <div class="splitLine wapShowBlock"
+                         style="width:100%; max-width:980px; padding-bottom:10px; text-align:center;">
+                        <a href="javascript:void(0);">
+                            <img target="_blank" alt="" src="/images/201605w/wapSplit.png">
+                        </a>
+                    </div>
+
+                    <div class="wtile w13 nomr wapShow clearLeft">
+                        <div class="innerDiv">
+                            <img src="/images/201605w/wap_indexImg19.png" class="ci1a">
+
+                            <img src="/images/201605w/wap_indexImg19b.png" class="ci1b" style="display:none;">
+                            <a href='javascript:void(0);' class='wtile-link'><img
+                                    src="/images/space.gif" width="100%"
+                                    height="100%"></a>
+                        </div>
+                    </div>
+
+                    <div class="wtile w13 w132 wapShow">
+                        <div class="innerDiv">
+                            <img src="/images/201605w/wap_p19a.png">
+
+                            <a href='http://item.jd.com/362334.html' class='wtile-link needTrack' target="_blank"><img
+                                    src="/images/space.gif" width="100%"
+                                    height="100%"></a>
+                            <!--<a href="http://item.jd.com/362334.html" class="stxt stxt1 needTrack">推荐产品</a>-->
+                            <a href="http://item.jd.com/362334.html" class="stxt stxt2 needTrack" target="_blank">美涛自由造型发蜡</a>
+                        </div>
+                    </div>
+
+                    <div class="wtile w13 w132 wapShow nomr">
+                        <div class="innerDiv">
+                            <img src="/images/201605w/wap_p19b.png">
+
+                            <a href='http://item.jd.com/1818758.html' class='wtile-link needTrack' target="_blank"><img
+                                    src="/images/space.gif" width="100%"
+                                    height="100%"></a>
+                            <!--<a href="http://item.jd.com/1818758.html" class="stxt stxt1 needTrack">推荐产品</a>-->
+                            <a href="http://item.jd.com/1818758.html" class="stxt stxt2 needTrack" target="_blank">美涛保湿型定型喷雾</a>
+                        </div>
+                    </div>
+
+                    <div class="pcShow">
+                        <div class="wtile w13 clearLeft sb1">
+                            <div class="innerDiv">
+                                <img src="/images/201605w/indexImg17.png">
+
+                                <img src="/images/201605w/closeBtn.png" class="closeBtn"
+                                     style="position:absolute; top:10px; right:10px; width:32px; display:none;"
+                                     width="32">
+                                <a href='javascript:void(0);' class='wtile-link needClickC'><img
+                                        src="/images/space.gif" width="100%"
+                                        height="100%"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pcShow">
+                        <div class="wtile w23 pcShow nomr sb1need" style="display:none;">
+                            <div class="innerDiv">
+                                <img src="/images/201605w/indexImg17sb.png">
+
+                                <a href='http://item.jd.com/362334.html' class='wtile-link1 needTrack'
+                                   target="_blank"><img
+                                        src="/images/space.gif" width="100%"
+                                        height="100%"></a>
+                                <!--<a href="http://item.jd.com/362334.html" class="stxt stxt3 needTrack">推荐产品</a>-->
+                                <a href="http://item.jd.com/1818743.html" class="stxt stxt4 needTrack" target="_blank">美涛强力塑型发蜡</a>
+
+                                <a href='http://item.jd.com/1818745.html' class='wtile-link2 needTrack' target="_blank"><img
+                                        src="/images/space.gif" width="100%"
+                                        height="100%"></a>
+                                <!--<a href="http://item.jd.com/1818745.html" class="stxt stxt5 needTrack">推荐产品</a>-->
+                                <a href="http://item.jd.com/1818745.html" class="stxt stxt6 needTrack" target="_blank">美涛亮泽型定型喷雾</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pcShow">
+                        <div class="wtile w13 clearLeft sb2need" style="display:none;">
+                            <div class="innerDiv">
+                                <img src="/images/201605w/indexImg18sb1.png">
+
+                                <a href='javascript:void(0);' class='wtile-link'><img
+                                        src="/images/space.gif" width="100%"
+                                        height="100%"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pcShow">
+                        <div class="wtile w13 clearLeft sb2">
+                            <div class="innerDiv">
+                                <img src="/images/201605w/indexImg18.png">
+
+                                <img src="/images/201605w/closeBtn.png" class="closeBtn"
+                                     style="position:absolute; top:10px; right:10px; width:32px; display:none;"
+                                     width="32">
+                                <a href='javascript:void(0);' class='wtile-link needClickC'><img
+                                        src="/images/space.gif" width="100%"
+                                        height="100%"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pcShow">
+                        <div class="wtile w13 sb2need nomr clearLeft" style="display:none;">
+                            <div class="innerDiv">
+                                <img src="/images/201605w/indexImg18sb2.png">
+
+                                <a href='http://item.jd.com/845678.html' class='wtile-link3 needTrack'><img
+                                        src="/images/space.gif" width="100%"
+                                        height="100%"></a>
+                                <!--<a href="http://item.jd.com/845678.html" class="stxt stxt7 needTrack">推荐产品</a>-->
+                                <a href="http://item.jd.com/845678.html" class="stxt stxt8 needTrack">美涛亮发啫喱水</a>
+
+                                <a href='http://www.maestro.com.cn/education/girl-hairstyle'
+                                   class='wtile-link4 needTrack'><img
+                                        src="/images/space.gif" width="100%"
+                                        height="100%"></a>
+                                <a href="http://www.maestro.com.cn/education/girl-hairstyle"
+                                   class="stxt stxt9 needTrack">100% 少女发型发布</a>
+                                <a href="http://www.maestro.com.cn/education/girl-hairstyle"
+                                   class="stxt stxt10 needTrack">新的一年想要美丽变身…</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pcShow">
+                        <div class="wtile w23 sb3need" style="display:none;">
+                            <div class="innerDiv">
+                                <img src="/images/201605w/indexImg19sb.png">
+
+                                <a href='http://item.jd.com/362334.html' class='wtile-link5 needTrack'
+                                   target="_blank"><img
+                                        src="/images/space.gif" width="100%"
+                                        height="100%"></a>
+                                <!--<a href="http://item.jd.com/362334.html" class="stxt stxt7 needTrack">推荐产品</a>-->
+                                <a href="http://item.jd.com/362334.html" class="stxt stxt8 needTrack" target="_blank">美涛自由造型发蜡</a>
+
+                                <a href='http://item.jd.com/1818758.html' class='wtile-link6 needTrack' target="_blank"><img
+                                        src="/images/space.gif" width="100%"
+                                        height="100%"></a>
+                                <!--<a href="http://item.jd.com/1818758.html" class="stxt stxt9 needTrack">推荐产品</a>-->
+                                <a href="http://item.jd.com/1818758.html" class="stxt stxt10 needTrack" target="_blank">美涛保湿型定型喷雾</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pcShow">
+                        <div class="wtile w13 sb3 nomr clearLeft">
+                            <div class="innerDiv">
+                                <img src="/images/201605w/indexImg19.png">
+
+                                <img src="/images/201605w/closeBtn.png" class="closeBtn"
+                                     style="position:absolute; top:10px; right:10px; width:32px; display:none;"
+                                     width="32">
+                                <a href='javascript:void(0);' class='wtile-link needClickC'><img
+                                        src="/images/space.gif" width="100%"
+                                        height="100%"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skv" style="width:100%; max-width:980px; padding-bottom:20px;">
+                        <a href="javascript:void(0);">
+                            <img target="_blank" alt="" src="/images/201605w/skv2.png"
+                                 style="width:100%; max-width:980px;">
+                        </a>
+                    </div>
+
+
+                    <div class="wtile w13 clearLeft">
+                        <div class="innerDiv">
+                            <img src="/images/footerteasa2.jpg">
+
+                            <a href='http://www.maestro.com.cn/education/shenshixingnan'
+                               class='wtile-link needTrack'><img
+                                    src="/images/space.gif" width="100%"
+                                    height="100%"></a>
+                            <a href="http://www.maestro.com.cn/education/shenshixingnan" class="stxt stxt1 needTrack">#今天怎么造？#</a>
+                            <a href="http://www.maestro.com.cn/education/shenshixingnan" class="stxt stxt2 needTrack">美涛攻略之绅士型男…</a>
+                        </div>
+                    </div>
+
+                    <div class="wtile w13 clearLeft">
+                        <div class="innerDiv">
+                            <img src="/images/footerteasa3.jpg">
+
+                            <a href='http://www.maestro.com.cn/education/suixingmeijuan'
+                               class='wtile-link needTrack'><img
+                                    src="/images/space.gif" width="100%"
+                                    height="100%"></a>
+                            <a href="http://www.maestro.com.cn/education/suixingmeijuan" class="stxt stxt1 needTrack">#今天怎么造？#</a>
+                            <a href="http://www.maestro.com.cn/education/suixingmeijuan" class="stxt stxt2 needTrack">美涛攻略之随性魅卷…</a>
+                        </div>
+                    </div>
+
+
+                    <div class="wtile w13 nomr clearLeft">
+                        <div class="innerDiv">
+                            <img src="/images/footerteasa1.jpg">
+
+                            <a href='http://www.maestro.com.cn/education/pengkeduanfa' class='wtile-link needTrack'><img
+                                    src="/images/space.gif" width="100%"
+                                    height="100%"></a>
+                            <a href="http://www.maestro.com.cn/education/pengkeduanfa" class="stxt stxt1 needTrack">#今天怎么造？#</a>
+                            <a href="http://www.maestro.com.cn/education/pengkeduanfa" class="stxt stxt2 needTrack">美涛攻略之朋克短发…</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="page-section page-section2" style="display:none;">
+            <div class="tiles-container">
+                <div class="tiles-wrapper page-wrapper wIndex">
+                    <div class="skv" style="width:100%; max-width:980px; padding-bottom:20px;">
+                        <a href="javascript:void(0);">
+                            <img target="_blank" alt="" src="/images/201608w/skv.png"
+                                 style="width:100%; max-width:980px;">
+                        </a>
+                    </div>
+
+                    <div class="wtile w13 clearLeft">
+                        <div class="innerDiv">
+                            <div class="pcShow">
+                                <img src="/images/201608w/indexImg1.png" class="cTop">
+                                <img src="/images/201608w/indexImg1b.png" class="cBottom" style="display:none;">
+                            </div>
+                            <div class="wapShow">
+                                <img src="/images/201608w/wap_indexImg1.png" class="ci1a">
+                                <img src="/images/201608w/wap_indexImg1b.png" class="ci1b" style="display:none;">
+                            </div>
+                            <a href='javascript:void(0);' class='wtile-link needChangeC' grel="STEP1"><img
+                                    src="/images/space.gif" width="100%"
+                                    height="100%"></a>
+                        </div>
+                    </div>
+
+                    <div class="wtile w23 nomr clearLeft">
+                        <div class="innerDiv">
+                            <img src="/images/201608w/indexImg2.png">
+                            <video id="v5" src="/images/201608w/1.mp4" preload="auto"
+                                   style="display:none; width:100%; height:100%; position:absolute; left:0; top:0;"></video>
+                            <a href='javascript:void(0);' class='wtile-link vBtn1' onClick="playwVideo(5);"><img
+                                    src="/images/space.gif" width="100%"
+                                    height="100%"></a>
+                        </div>
+                    </div>
+
+                    <div class="wtile w13 w132">
+                        <div class="innerDiv">
+                            <img src="/images/201608w/indexImg3.png">
+                            <a href='http://www.maestro.com.cn/productcatalogue/qianglisuxingfala'
+                               class='wtile-link needTrack'><img
+                                    src="/images/space.gif" width="100%"
+                                    height="100%"></a>
+                            <a href="http://www.maestro.com.cn/productcatalogue/qianglisuxingfala"
+                               class="stxt stxt1 needTrack">推荐产品</a>
+                            <a href="http://www.maestro.com.cn/productcatalogue/qianglisuxingfala"
+                               class="stxt stxt2 needTrack">美涛强力塑型发蜡</a>
+                        </div>
+                    </div>
+
+                    <div class="wtile w13 w132 nomr">
+                        <div class="innerDiv">
+                            <img src="/images/201608w/indexImg4.png">
+                            <a href='http://www.maestro.com.cn/productcatalogue/dingxinpenwuliangze'
+                               class='wtile-link needTrack' target="_blank"><img
+                                    src="/images/space.gif" width="100%"
+                                    height="100%"></a>
+                            <a href="http://www.maestro.com.cn/productcatalogue/dingxinpenwuliangze"
+                               class="stxt stxt1 needTrack">推荐产品</a>
+                            <a href="http://www.maestro.com.cn/productcatalogue/dingxinpenwuliangze"
+                               class="stxt stxt2 needTrack" target="_blank">美涛亮泽型喷雾</a>
+                        </div>
+                    </div>
+
+                    <div class="splitLine wapShowBlock"
+                         style="width:100%; max-width:980px; padding-bottom:10px; text-align:center;">
+                        <a href="javascript:void(0);">
+                            <img target="_blank" alt="" src="/images/201608w/wapSplit.png">
+                        </a>
+                    </div>
+
+                    <div class="wtile w13 nomr wapShow clearLeft">
+                        <div class="innerDiv">
+                            <img src="/images/201608w/wap_indexImg6.png" class="ci2a">
+                            <img src="/images/201608w/wap_indexImg6b.png" class="ci2b" style="display:none;">
+                            <a href='javascript:void(0);' class='wtile-link'><img
+                                    src="/images/space.gif" width="100%"
+                                    height="100%"></a>
+                        </div>
+                    </div>
+
+                    <div class="wtile w23 clearLeft">
+                        <div class="innerDiv">
+                            <img src="/images/201608w/indexImg5.png">
+                            <video id="v6" src="/images/201608w/2.mp4" preload="auto"
+                                   style="display:none; width:100%; height:100%; position:absolute; left:0; top:0;"></video>
+                            <a href='javascript:void(0);' class='wtile-link vBtn2' onClick="playwVideo(6);"><img
+                                    src="/images/space.gif" width="100%"
+                                    height="100%"></a>
+                        </div>
+
+                        <div class="wtile w232">
+                            <div class="innerDiv">
+                                <img src="/images/201608w/indexImg7.png">
+                                <a href='http://www.maestro.com.cn/productcatalogue/qianglisuxingfala'
+                                   class='wtile-link needTrack' target="_blank"><img
+                                        src="/images/space.gif" width="100%"
+                                        height="100%"></a>
+                                <a href="http://www.maestro.com.cn/productcatalogue/qianglisuxingfala"
+                                   class="stxt stxt1 needTrack">推荐产品</a>
+                                <a href="http://www.maestro.com.cn/productcatalogue/qianglisuxingfala"
+                                   class="stxt stxt2 needTrack" target="_blank">美涛强力塑型发蜡</a>
+                            </div>
+                        </div>
+
+                        <div class="wtile w232 nomr">
+                            <div class="innerDiv">
+                                <img src="/images/201608w/indexImg8.png">
+                                <a href='http://www.maestro.com.cn/productcatalogue/dingxinpenwuliangze'
+                                   class='wtile-link needTrack' target="_blank"><img
+                                        src="/images/space.gif" width="100%"
+                                        height="100%"></a>
+                                <a href="http://www.maestro.com.cn/productcatalogue/dingxinpenwuliangze"
+                                   class="stxt stxt1 needTrack">推荐产品</a>
+                                <a href="http://www.maestro.com.cn/productcatalogue/dingxinpenwuliangze"
+                                   class="stxt stxt2 needTrack" target="_blank">美涛定型喷雾亮泽型
+</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="wtile w13 nomr pcShow clearLeft">
+                        <div class="innerDiv">
+                            <img src="/images/201608w/indexImg6.png" class="cTop">
+                            <img src="/images/201608w/indexImg6b.png" class="cBottom" style="display:none;">
+                            <a href='javascript:void(0);' class='wtile-link needChangeC' grel="STEP2"><img
+                                    src="/images/space.gif" width="100%"
+                                    height="100%"></a>
+                        </div>
+                    </div>
+
+                    <div class="splitLine wapShowBlock"
+                         style="width:100%; max-width:980px; padding-bottom:10px; text-align:center;">
+                        <a href="javascript:void(0);">
+                            <img target="_blank" alt="" src="/images/201608w/wapSplit.png">
+                        </a>
+                    </div>
+
+                    <div class="wtile w13 clearLeft">
+                        <div class="innerDiv">
+                            <div class="pcShow">
+                                <img src="/images/201608w/indexImg9.png" class="cTop">
+                                <img src="/images/201608w/indexImg9b.png" class="cBottom" style="display:none;">
+                            </div>
+                            <div class="wapShow">
+                                <img src="/images/201608w/wap_indexImg9.png" class="ci1a">
+                                <img src="/images/201608w/wap_indexImg9b.png" class="ci1b" style="display:none;">
+                            </div>
+                            <a href='javascript:void(0);' class='wtile-link needChangeC' grel="STEP3"><img
+                                    src="/images/space.gif" width="100%"
+                                    height="100%"></a>
+                        </div>
+                    </div>
+
+                    <div class="wtile w23 nomr clearLeft">
+                        <div class="innerDiv">
+                            <img src="/images/201608w/indexImg10.png">
+                            <video id="v7" src="/images/201608w/3.mp4" preload="auto"
+                                   style="display:none; width:100%; height:100%; position:absolute; left:0; top:0;"></video>
+                            <a href='javascript:void(0);' class='wtile-link vBtn3' onClick="playwVideo(7);"><img
+                                    src="/images/space.gif" width="100%"
+                                    height="100%"></a>
+                        </div>
+                    </div>
+
+                    <div class="wtile w13 w132">
+                        <div class="innerDiv">
+                            <img src="/images/201608w/indexImg11.png">
+                            <a href='http://www.maestro.com.cn/productcatalogue/liangfazhelishui'
+                               class='wtile-link needTrack' target="_blank"><img
+                                    src="/images/space.gif" width="100%"
+                                    height="100%"></a>
+                            <a href="http://www.maestro.com.cn/productcatalogue/liangfazhelishui"
+                               class="stxt stxt1 needTrack">推荐产品</a>
+                            <a href="http://www.maestro.com.cn/productcatalogue/liangfazhelishui"
+                               class="stxt stxt2 needTrack" target="_blank">美涛定型亮发啫喱水</a>
+                        </div>
+                    </div>
+
+                    <div class="wtile w13 w132 nomr">
+                        <div class="innerDiv">
+                            <img src="/images/201608w/indexImg12.png">
+                            <a href='http://www.maestro.com.cn/education/girl-hairstyle'
+                               class='wtile-link needTrack'><img
+                                    src="/images/space.gif" width="100%"
+                                    height="100%"></a>
+                            <a href="http://www.maestro.com.cn/education/girl-hairstyle" class="stxt stxt1 needTrack">100%
+                                少女发型发布</a>
+                            <a href="http://www.maestro.com.cn/education/girl-hairstyle" class="stxt stxt2 needTrack">新的一年想要美丽变身…</a>
+                        </div>
+                    </div>
+
+                    <div class="splitLine wapShowBlock"
+                         style="width:100%; max-width:980px; padding-bottom:10px; text-align:center;">
+                        <a href="javascript:void(0);">
+                            <img target="_blank" alt="" src="/images/201608w/wapSplit.png">
+                        </a>
+                    </div>
+
+                    <div class="wtile w13 nomr wapShow clearLeft">
+                        <div class="innerDiv">
+                            <img src="/images/201608w/wap_indexImg19.png" class="ci2a">
+                            <img src="/images/201608w/wap_indexImg19b.png" class="ci2b" style="display:none;">
+                            <a href='javascript:void(0);' class='wtile-link'><img
+                                    src="/images/space.gif" width="100%"
+                                    height="100%"></a>
+                        </div>
+                    </div>
+
+                    <div class="wtile w13 w132 wapShow">
+                        <div class="innerDiv">
+                            <img src="/images/201608w/wap_p19a.png">
+                            <a href='http://www.maestro.com.cn/productcatalogue/qingshuangbaoshizheligao'
+                               class='wtile-link needTrack' target="_blank"><img
+                                    src="/images/space.gif" width="100%"
+                                    height="100%"></a>
+                            <a href="http://www.maestro.com.cn/productcatalogue/qingshuangbaoshizheligao"
+                               class="stxt stxt1 needTrack">推荐产品</a>
+                            <a href="http://www.maestro.com.cn/productcatalogue/qingshuangbaoshizheligao"
+                               class="stxt stxt2 needTrack" target="_blank">美涛清爽保湿啫喱膏</a>
+                        </div>
+                    </div>
+
+                    <div class="wtile w13 w132 wapShow nomr">
+                        <div class="innerDiv">
+                            <img src="/images/201608w/wap_p19b.png">
+                            <a href='http://www.maestro.com.cn/productcatalogue/dingxingpenwubaoshi'
+                               class='wtile-link needTrack'><img
+                                    src="/images/space.gif" width="100%"
+                                    height="100%"></a>
+                            <a href="http://www.maestro.com.cn/productcatalogue/dingxingpenwubaoshi"
+                               class="stxt stxt1 needTrack">推荐产品</a>
+                            <a href="http://www.maestro.com.cn/productcatalogue/dingxingpenwubaoshi"
+                               class="stxt stxt2 needTrack">美涛定型喷雾保湿型</a>
+                        </div>
+                    </div>
+
+                    <div class="pcShow">
+                        <div class="wtile w23 sb3need">
+                            <div class="innerDiv">
+                                <img src="/images/201608w/indexImg19sb.png">
+                                <a href='http://www.maestro.com.cn/productcatalogue/qingshuangbaoshizheligao'
+                                   class='wtile-link5 needTrack' target="_blank"><img
+                                        src="/images/space.gif" width="100%"
+                                        height="100%"></a>
+                                <a href="http://www.maestro.com.cn/productcatalogue/qingshuangbaoshizheligao"
+                                   class="stxt stxt7 needTrack">推荐产品</a>
+                                <a href="http://www.maestro.com.cn/productcatalogue/qingshuangbaoshizheligao"
+                                   class="stxt stxt8 needTrack" target="_blank">美涛清爽保湿啫喱膏</a>
+
+                                <a href='http://www.maestro.com.cn/productcatalogue/dingxingpenwubaoshi'
+                                   class='wtile-link6 needTrack' target="_blank"><img
+                                        src="/images/space.gif" width="100%"
+                                        height="100%"></a>
+                                <a href="http://www.maestro.com.cn/productcatalogue/dingxingpenwubaoshi"
+                                   class="stxt stxt9 needTrack">推荐产品</a>
+                                <a href="http://www.maestro.com.cn/productcatalogue/dingxingpenwubaoshi"
+                                   class="stxt stxt10 needTrack" target="_blank">美涛定型喷雾保湿型</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pcShow">
+                        <div class="wtile w13 sb3 nomr clearLeft">
+                            <div class="innerDiv">
+                                <img src="/images/201608w/indexImg19.png">
+                                <a class='wtile-link'><img
+                                        src="/images/space.gif" width="100%"
+                                        height="100%"></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skv" style="width:100%; max-width:980px; padding-bottom:20px;">
+                        <a href="javascript:void(0);">
+                            <img target="_blank" alt="" src="/images/201608w/skv2.png"
+                                 style="width:100%; max-width:980px;">
+                        </a>
+                    </div>
+
+                    <div class="wtile w13 clearLeft">
+                        <div class="innerDiv">
+                            <img src="/images/201608w/bImg1.png">
+                            <a href='http://www.maestro.com.cn/education/summer-modelling' class='wtile-link needTrack'><img
+                                    src="/images/space.gif" width="100%"
+                                    height="100%"></a>
+                            <a href="http://www.maestro.com.cn/education/summer-modelling" class="stxt stxt1 needTrack">夏日造型白皮书</a>
+                            <a href="http://www.maestro.com.cn/education/summer-modelling" class="stxt stxt2 needTrack">夏天的脚步越来越近，你是不是已…</a>
+                        </div>
+                    </div>
+
+                    <div class="wtile w13 clearLeft">
+                        <div class="innerDiv">
+                            <img src="/images/201608w/bImg2.png">
+                            <a href='http://www.maestro.com.cn/education/spring-guide' class='wtile-link needTrack'><img
+                                    src="/images/space.gif" width="100%"
+                                    height="100%"></a>
+                            <a href="http://www.maestro.com.cn/education/spring-guide" class="stxt stxt1 needTrack">风华春季的发型指南</a>
+                            <a href="http://www.maestro.com.cn/education/spring-guide" class="stxt stxt2 needTrack">万物复苏的春季，一切都焕然…</a>
+                        </div>
+                    </div>
+
+                    <div class="wtile w13 nomr clearLeft">
+                        <div class="innerDiv">
+                            <img src="/images/201608w/bImg3.png">
+                            <a href='http://www.maestro.com.cn/education/dating-modelling' class='wtile-link needTrack'><img
+                                    src="/images/space.gif" width="100%"
+                                    height="100%"></a>
+                            <a href="http://www.maestro.com.cn/education/dating-modelling" class="stxt stxt1 needTrack">四款发型，俘获他的心</a>
+                            <a href="http://www.maestro.com.cn/education/dating-modelling" class="stxt stxt2 needTrack">要让他对你一见倾心，神魂颠…</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            var tabNumb = 2;
+            function tabCheck() {
+                if (tabNumb >= 0) {
+
+                }
+                else {
+                    tabNumb = 1;
+                }
+                /*if (tabNumb == 1) {
+                    $('.slider-item').css('background-image', 'url(/images/201605w/kvnew.jpg)');
+                }
+                else if (tabNumb == 2) {
+                    $('.slider-item').css('background-image', 'url(/images/201608w/kv.jpg)');
+                }*/
+                $('.page-section').hide();
+                $('.page-section' + tabNumb).show();
+                $('.wTabWarp ul').css('background-position', '0 ' + (1 - tabNumb) * 58 + 'px');
+				$('.wTab2').css('background-position',''+(1 - tabNumb) * 103+'px 0');
+            }
+
+            var isOpne = false;
+            var playindeId = 0;
+            function playwVideo(e) {
+                var v1 = document.getElementById('v1');
+                var v2 = document.getElementById('v2');
+                var v3 = document.getElementById('v3');
+                var v4 = document.getElementById('v4');
+                var v5 = document.getElementById('v5');
+                var v6 = document.getElementById('v6');
+                var v7 = document.getElementById('v7');
+                v1.pause();
+                v2.pause();
+                v3.pause();
+                v4.pause();
+                v5.pause();
+                v6.pause();
+                v7.pause();
+                $('#v1,#v2,#v3,#v4,#v5,#v6,#v7').hide();
+                switch (e) {
+                    case 1:
+                        if (playindeId == 1) {
+                            playindeId = 0;
+                            $('#v1').hide();
+                            v1.pause();
+                        }
+                        else {
+                            playindeId = 1;
+                            $('#v1').show();
+                            v1.play();
+                            ga('send', 'event', 'button', 'click', 'video1');
+                        }
+                        break;
+                    case 2:
+                        if (playindeId == 2) {
+                            playindeId = 0;
+                            $('#v2').hide();
+                            v2.pause();
+                        }
+                        else {
+                            playindeId = 2;
+                            $('#v2').show();
+                            v2.play();
+                            ga('send', 'event', 'button', 'click', 'video2');
+                        }
+                        break;
+                    case 3:
+                        if (playindeId == 3) {
+                            playindeId = 0;
+                            $('#v3').hide();
+                            v3.pause();
+                        }
+                        else {
+                            playindeId = 3;
+                            $('#v3').show();
+                            v3.play();
+                            ga('send', 'event', 'button', 'click', 'video3');
+                        }
+                        break;
+                    case 4:
+                        if (playindeId == 4) {
+                            playindeId = 0;
+                            $('#v4').hide();
+                            v4.pause();
+                        }
+                        else {
+                            playindeId = 4;
+                            $('#v4').show();
+                            v4.play();
+                            ga('send', 'event', 'button', 'click', 'video4');
+                        }
+                        break;
+                    case 5:
+                        if (playindeId == 5) {
+                            playindeId = 0;
+                            $('#v5').hide();
+                            v5.pause();
+                        }
+                        else {
+                            playindeId = 5;
+                            $('#v5').show();
+                            v5.play();
+                            ga('send', 'event', 'button', 'click', 'video5');
+                        }
+                        break;
+                    case 6:
+                        if (playindeId == 6) {
+                            playindeId = 0;
+                            $('#v6').hide();
+                            v6.pause();
+                        }
+                        else {
+                            playindeId = 6;
+                            $('#v6').show();
+                            v6.play();
+                            ga('send', 'event', 'button', 'click', 'video6');
+                        }
+                        break;
+                    case 7:
+                        if (playindeId == 7) {
+                            playindeId = 0;
+                            $('#v7').hide();
+                            v7.pause();
+                        }
+                        else {
+                            playindeId = 7;
+                            $('#v7').show();
+                            v7.play();
+                            ga('send', 'event', 'button', 'click', 'video7');
+                        }
+                        break;
+                }
+            }
+
+            window.onload = winOnload();
+            function winOnload() {
+                setTimeout(function () {
+                    $('.needTrack').click(function () {
+                        var tLink = $(this).attr('href');
+                        ga('send', 'event', 'button', 'click', tLink, {
+                            'hitCallback': function () {
+                                window.location.href = tLink;
+                            }
+                        });
+                        return false;
+                    });
+
+                    $('.needChangeC').mouseover(function () {
+                        var grel = $(this).attr('grel');
+                        ga('send', 'event', 'button', 'mouseover', grel);
+                        $(this).parents('.innerDiv').find('.cTop').hide();
+                        $(this).parents('.innerDiv').find('.cBottom').show();
+                    }).mouseout(function () {
+                        $('.cBottom').hide();
+                        $('.cTop').show();
+                    });
+
+                    $('.needClickC').click(function () {
+                        if (isOpne) {
+                            $('.page-section1 .sb1need').hide();
+                            $('.page-section1 .sb2need').hide();
+                            $('.page-section1 .sb3need').hide();
+                            $('.page-section1 .sb1').show();
+                            $('.page-section1 .sb2').show();
+                            $('.page-section1 .sb3').show();
+                            $('.page-section1 .closeBtn').hide();
+                            isOpne = false;
+                        }
+                        else {
+                            var wClass = $(this).parents('.wtile').attr('class');
+                            if (wClass.indexOf('sb1') > -1) {
+                                ga('send', 'event', 'button', 'mouseover', 'STEP5');
+                                $('.page-section1 .sb2').hide();
+                                $('.page-section1 .sb3').hide();
+                                $('.page-section1 .sb1need').show();
+                            }
+                            else if (wClass.indexOf('sb2') > -1) {
+                                ga('send', 'event', 'button', 'mouseover', 'STEP6');
+                                $('.page-section1 .sb1').hide();
+                                $('.page-section1 .sb3').hide();
+                                $('.page-section1 .sb2need').show();
+                            }
+                            else {
+                                ga('send', 'event', 'button', 'mouseover', 'STEP7');
+                                $('.page-section1 .sb1').hide();
+                                $('.page-section1 .sb2').hide();
+                                $('.page-section1 .sb3need').show();
+                            }
+                            $('.page-section1 .closeBtn').show();
+                            isOpne = true;
+                        }
+                    });
+                }, 1000);
+
+                setInterval(function () {
+                    $('.ci1a').hide();
+                    $('.ci1b').show();
+                    setTimeout(function () {
+                        $('.ci1b').hide();
+                        $('.ci1a').show();
+                    }, 3000);
+                }, 6000);
+
+                setTimeout(function () {
+                    setInterval(function () {
+                        $('.ci2a').hide();
+                        $('.ci2b').show();
+                        setTimeout(function () {
+                            $('.ci2b').hide();
+                            $('.ci2a').show();
+                        }, 3000);
+                    }, 6000);
+                }, 1500);
+            }
+        </script>
+        <!--jQuery-->
+        <script src="/images/201605w/jquery-1.11.0.min.js"></script>
+        <script>
+            var wWidth;
+            var isWap = false;
+            function topVideo() {
+                var iframeSrc = new Array;
+                var bmWinH2 = $j(window).height() + 359;
+                $j('body').prepend('<div class="bmWrap" style="position:relative;overflow-x:hidden;"></div>');
+                $j('body').prepend('<style type="text/css">#corrosilRightArrow{top:' + bmWinH2 + 'px !important}#corrosilLeftArrow{top:' + bmWinH2 + 'px !important}</style>');
+                $j('.bmWrap').append('<div class="mvBox"><video id="w11v" src="/images/201608w/topVideo.mp4" preload="auto" autoplay="autoplay" width="100%" height="100%"  style="position:fixed; background:#000; left:0; top:0; width:100%; height:100%;"></video></div>');
+                $j('.bmWrap').append('<a href="javascript:void(0);" class="bmClose" style=" font-size:18px; color:#FFF; position:absolute;top:30px;right:30px;z-index:3">关闭<!--<img src="/images/201608w/closeBtn.png" />--></a>');
+                $j('.bmWrap').append('<a href="javascript:void(0);" class="bmPlay" style="position:fixed;top:50%;left:50%;z-index:3;margin:-35px 0 0 -25px; display:none;"><img src="/images/201608w/playBtn.png" /></a>');
+                $j('.bmWrap').append('<span class="dimdeu" style="position:absolute;top:0;left:0;z-index:2;width:100%;height:100%;opacity:0;background:#000"></span>');
+                $j('.page-container').wrap('<div class="allContentWrap"></div>');
+                $j('.allContentWrap').css({
+                    'margin': 0,
+                    'padding': 0,
+                    'background': '#fff',
+                    'width': '100%',
+                    'height': '100%',
+                    'position': 'relative',
+                    'z-index': '11'
+                });
+
+                $j('html, body').animate({
+                    'scrollTop': 0
+                }, 10, 'swing');
+
+                document.getElementById('w11v').addEventListener('ended', function () {
+                    closeV11();
+                }, false);
+
+                // Contents Size Function
+                $j.fn.mvResize = function () {
+                    var bmWinW = $j(window).width();
+                    var bmWinH = $j(window).height();
+                    var mvWeight = bmWinW;
+                    var mvHeight = (bmWinW / 16) * 9;
+                    if (mvHeight < bmWinH) {
+                        mvHeight = bmWinH;
+                        mvWeight = bmWinW;
+                    }
+                    ;
+                    //$j('#corrosilRightArrow').css('top', bmWinH + 354);
+                    //$j('#corrosilLeftArrow').css('top', bmWinH + 354);
+                    $j('.bmWrap').css({
+                        'width': bmWinW,
+                        'height': bmWinH
+                    }).find('.mvBox').css({
+                        'width': mvWeight,
+                        'height': mvHeight,
+                        'position': 'fixed',
+                        'top': '0px',
+                        'left': '0px'
+                    });
+                };
+                $j.fn.mvResize();
+
+                // Scroll Top Move
+                /*$j(window).load(function() {
+                 $j('html, body').animate({
+                 scrollTop: 0
+                 }, 50);
+                 //$j('#frontContainer').parent('.bodyTextGray').css('overflow-x', 'hidden');
+                 });*/
+
+                // Window Resize
+                $j(window).resize(function () {
+                    if (!isWap) {
+                        $j.fn.mvResize();
+                    }
+                });
+
+                // Close Event
+                $j('.bmClose').on('click', function () {
+                    $j('.bmPlay').show();
+                    var v11 = document.getElementById('w11v');
+                    v11.pause();
+                    var bmWinH = $j(window).height();
+                    $j('html, body').animate({
+                        'scrollTop': bmWinH
+                    }, 1000, 'swing');
+					if (tabNumb == 1) {
+                        playwVideo(1);
+                    }
+                    else if (tabNumb == 2) {
+                        playwVideo(5);
+                    }
+                });
+
+                function closeV11() {
+                    $j('.bmPlay').show();
+                    var v11 = document.getElementById('w11v');
+                    v11.pause();
+                    var bmWinH = $j(window).height();
+                    $j('html, body').animate({
+                        'scrollTop': bmWinH
+                    }, 1000, 'swing');
+                    if (tabNumb == 1) {
+                        playwVideo(1);
+                    }
+                    else if (tabNumb == 2) {
+                        playwVideo(5);
+                    }
+                }
+
+                //playVide
+                $j('.bmPlay').on('click', function () {
+                    $j('.bmPlay').hide();
+                    $j('html, body').animate({
+                        'scrollTop': 0
+                    }, 1000, 'swing');
+                    var v11 = document.getElementById('w11v');
+                    v11.play();
+                });
+
+                // Moouse Event
+                $j('.bdMore').on('mouseenter', function () {
+                    $j(this).find('.bd_ikea_arrow').stop().animate({
+                        'left': 200
+                    }, 100);
+                });
+                $j('.bdMore').on('mouseleave', function () {
+                    $j(this).find('.bd_ikea_arrow').stop().animate({
+                        'left': 195
+                    }, 100);
+                });
+
+                // Scroll Dimdeu Event
+                $j(window).scroll(function () {
+                    var DEFAULT_VERSION = "8.0";
+                    var ua = navigator.userAgent.toLowerCase();
+                    var isIE = ua.indexOf("msie") > -1;
+                    var safariVersion;
+                    if (isIE) {
+                        safariVersion = ua.match(/msie ([\d.]+)/)[1];
+                        if (parseInt(safariVersion) <= parseInt(DEFAULT_VERSION)) {
+                            // 跳转至页面1
+                        } else {
+                            var bmWinH = $j(window).height();
+                            var scrollMin = 0;
+                            var scrollMax = bmWinH;
+                            var scrollVal = $j(window).scrollTop() / scrollMax;
+                            if ($j(window).scrollTop() > scrollMin && $j(window).scrollTop() < scrollMax) {
+                                $j('.dimdeu').css('opacity', scrollVal * 0.7);
+                            } else if ($j(window).scrollTop() == 0) {
+                                $j('.dimdeu').css('opacity', 0);
+                            }
+                            ;
+                        }
+                    } else {
+                        // 跳转至页面2
+                        var bmWinH = $j(window).height();
+                        var scrollMin = 0;
+                        var scrollMax = bmWinH;
+                        var scrollVal = $j(window).scrollTop() / scrollMax;
+                        if ($j(window).scrollTop() > scrollMin && $j(window).scrollTop() < scrollMax) {
+                            $j('.dimdeu').css('opacity', scrollVal * 0.7);
+                        } else if ($j(window).scrollTop() == 0) {
+                            $j('.dimdeu').css('opacity', 0);
+                        }
+                        ;
+                    }
+                });
+            }
+			
+			 $j(document).ready(function(){
+				  wWidth=$j(window).width();
+				  try{
+				  if (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
+						  //wapVideo();
+						  }else{
+							  pdTopVide();
+							  }
+					  }catch(e){}
+					tabCheck();
+				});
+
+            function wapVideo() {
+                isWap = true;
+                $j('body').append('<div class="wapVideoBg" style="position:fixed; left:0; top:0; width:100%; top:100%; background:rgb(0,0,0,0.8); z-index:990;"></div><div style="width:100%; height:480px; left:0; top:50%; margin-top:-240px;"><video id="wapVideo" src="/images/201608w/topVideo.mp4" preload="auto" autoplay="autoplay" control width="100%" height="100%"  style="position:fixed; background:#000; left:0; top:0; width:100%; height:100%; z-index:999;"></video></div><a href="javascript:void(0);" onClick="closeWapVideo();" style=" position:fixed; top:30px; right:30px; z-index:1000;" class="waoVideoCloseBtn"><img src="/images/201608w/closeBtn.png" /></a>');
+
+                var wapVideo = document.getElementById('wapVideo');
+                wapVideo.play();
+            }
+
+            function closeWapVideo() {
+                var wapVideo = document.getElementById('wapVideo');
+                wapVideo.pause();
+                $j('#wapVideo').fadeOut(500);
+                $j('.wapVideoBg').fadeOut(500);
+                $j('.waoVideoCloseBtn').fadeOut(500);
+            }
+
+            function pdTopVide() {
+                var DEFAULT_VERSION = "8.0";
+                var ua = navigator.userAgent.toLowerCase();
+                var isIE = ua.indexOf("msie") > -1;
+                var safariVersion;
+                if (isIE) {
+                    safariVersion = ua.match(/msie ([\d.]+)/)[1];
+                    if (parseInt(safariVersion) <= parseInt(DEFAULT_VERSION)) {
+                        // 跳转至页面1
+                    } else {
+                        topVideo();
+                    }
+                } else {
+                    // 跳转至页面2
+                    topVideo();
+                }
+            }
+        </script>
+        <!-- div.page-section end -->
+        <!--william work end-->
