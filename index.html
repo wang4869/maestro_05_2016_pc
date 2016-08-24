@@ -1755,17 +1755,17 @@
                 });
             }
 
-            $j(document).ready(function () {
-                wWidth = $j(window).width();
-                if (wWidth <= 640) {
-                    //wapVideo();
-                }
-                else {
-                    pdTopVide();
-                }
-
-                tabCheck();
-            });
+            $j(document).ready(function(){
+				wWidth=$j(window).width();
+				try{
+					if (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) {
+						//wapVideo();
+						}else{
+							pdTopVide();
+							}
+					}catch(e){}
+				tabCheck();
+				});
 
             function wapVideo() {
                 isWap = true;
